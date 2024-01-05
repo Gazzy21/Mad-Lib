@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Comic Neue', cursive;
     margin: 0;
     padding: 0;
 }
@@ -25,4 +25,16 @@ footer {
 #madLibOutput {
     padding: 20px;
     text-align: center;
+}
+
+.peterimg {
+    border: 3px solid rgb(46, 46, 46);
+}
+
+.headertopstyle {
+    box-shadow: 2px 10px 10px 5px rgb(46, 46, 46);
+}
+
+.headerbottomstyle {
+    box-shadow: -2px -10px 10px 5px rgb(46, 46, 46);
 }

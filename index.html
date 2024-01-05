@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mad Lib Tutorial</title>
+    <title>Mad Lib</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -21,28 +21,40 @@
       rel="icon"
       href="https://upload.wikimedia.org/wikipedia/en/c/c2/Peter_Griffin.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header class="bg-dark text-white text-center py-2">
+    <header class="bg-dark text-white text-center py-2 headertopstyle">
       <div class="container">
         <h1 class="display-4">Family Guy Christmas</h1>
-        <p class="lead">Check out my super duper extremely awesome and extravagant madlibs.</p>
+        <p class="lead">
+          Check out my super duper extremely awesome and extravagant madlibs.
+        </p>
       </div>
     </header>
     <div class="container my-4">
       <div id="madLibOutput" class="text-center"></div>
     </div>
     <main>
-      <img src="Peter Santa.jpg">
+      <div class="text-center">
+        <img class="peterimg" src="Peter Santa.jpg" />
+      </div>
     </main>
-    <footer class="bg-dark text-white text-center py-2 fixed-bottom">
+    <footer
+      class="bg-dark text-white text-center py-2 fixed-bottom headerbottomstyle"
+    >
       <p class="text-white">&copy; 2023 WDPP L2</p>
       <p class="text-white">Designed by Nick Guzzone</p>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="script.js"></script>
-    
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
